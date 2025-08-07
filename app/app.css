@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.link {
+  @apply p-14
+}
+ 
+.ItemCenter {
+  @apply flex justify-center items-center
+}
+
+
+.styleUl {
+  @apply text-[#000] px-[1rem] py-[0.6rem] border-b-[1px] border-b-[#bdbbbb46] flex
+}
+
+
+.a{
+  @apply flex gap-4 justify-center items-center
+ }
+
+ .FaStar{
+  @apply mr-[0.6rem] text-[0.7rem]
+ }
+
+ .titlename{
+  @apply font-[600] text-[1.1rem] mb-[0.8rem]
+ }
+
+ .buttons{
+   @apply absolute -bottom-20  transition-[0.4s]  ease-in-out
+ }
+.cardsProdut:hover .buttons {
+    @apply bottom-[24px] 
+}
+
+.cardsProdut:hover .ButtonSearch {
+    @apply flex transition-[0.4s] ease-in-out
+    
+}
+
+
+.divClasshot{
+  @apply absolute top-0 left-0 bg-[#f70818] p-[0.6rem] rounded-br-[4px]
+}
+.elementClassHot {
+  @apply text-[#f1f1f1] text-[1.1rem] font-[600] 
+}
+
+
+.titleClass{
+  @apply text-[#000] text-[1.2rem]  font-[600] my-[1rem]  
+}
+
+.classLink{
+  @apply flex  gap-2 text-[#0c0c0c] font-[400]
+}
+.ulClass{
+  @apply  my-[0.6rem]  
+}
