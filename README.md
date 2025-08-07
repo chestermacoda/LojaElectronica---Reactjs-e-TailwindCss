@@ -1,19 +1,29 @@
-# Welcome to React Router!
+📦 Loja Eletrônica - React.js + Tailwind CSS
+Este projeto é uma loja eletrônica responsiva desenvolvida com React.js e Tailwind CSS, com foco em performance, usabilidade e design moderno. Ideal para demonstração de e-commerce, projetos pessoais ou estudos de frontend moderno.
 
-A modern, production-ready template for building full-stack React applications using React Router.
+🚀 Tecnologias utilizadas
+React.js – Biblioteca JavaScript para construção de interfaces modernas e reativas.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Tailwind CSS – Framework utilitário para estilização rápida e responsiva.
 
-## Features
+React Router DOM – Navegação entre páginas (SPA).
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Context API / useState / useEffect – Gerenciamento de estado e efeitos colaterais.
 
+(Opcional: Axios, JSON Server, Firebase ou outras libs que você esteja usando)
+
+✨ Funcionalidades
+🛍️ Listagem de produtos
+
+🔍 Filtro e busca de itens
+
+🛒 Carrinho de compras
+
+💳 Tela de checkout (pode simular ou integrar com gateway)
+
+📱 Layout totalmente responsivo (mobile first)
+
+⚡ Interface rápida e intuitiva
 ## Getting Started
 
 ### Installation
